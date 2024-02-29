@@ -1,0 +1,13 @@
+.task{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 30vw;
+    max-height: 50vh;
+    font-size: 1.5rem;
+}
+
+.border{
+    border: 2px dashed black;
+    width: 25rem;
+}

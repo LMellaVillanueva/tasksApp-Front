@@ -1,0 +1,4 @@
+{
+    "extends": "<tsconfigRootDir>/front-ts/tsconfig.json",
+    "include": ["<tsconfigRootDir>/front-ts\\.eslintrc.cjs", "src/**/*.ts", "src/**/*.tsx"]
+}
