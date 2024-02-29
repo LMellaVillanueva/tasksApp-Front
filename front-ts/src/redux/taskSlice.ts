@@ -85,10 +85,10 @@ export const searchOneTask = (task: string, state: ListOfTasks) => async (dispat
 }
 
 export const searchOneTaskDeleted = (task: string, state: ListOfTasks) => async (dispatch: AppDispatch) => {
-  let filteredTask = []
+  let filteredTaskD = []
   try {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    dispatch(searchTaskDeleted(filteredTask = state.filter((taskFound => {
+    dispatch(searchTaskDeleted(filteredTaskD = state.filter((taskFound => {
       return taskFound.name.toLowerCase().startsWith(task)
     }))))
   } catch (error) {

@@ -69,7 +69,7 @@ export const TasksDeleted: React.FC<Props> = ({ tasksDeleted }) => {
                   <span className={styles.info}>Name: {task.name}</span>
                   <span className={styles.info}> Description: {task.description}</span>
                 </div> */}
-                  <Task id={task.id} name={task.name} description={task.description} />
+                  <Task id={task.id} name={task.name} description={task.description} status={false}/>
                 </div>
                 <div className={styles.buttons}>
                   <button onClick={() => { setConfirmation([task.id]) }}>Delete</button>

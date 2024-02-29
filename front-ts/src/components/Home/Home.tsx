@@ -79,6 +79,7 @@ export const Home: React.FC<Props> = ({ tasks }) => {
                         id={task.id}
                         name={task.name}
                         description={task.description}
+                        status={true}
                       />
                     </div>
                     <div className={styles.buttons}>
